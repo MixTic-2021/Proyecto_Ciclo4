@@ -11,8 +11,7 @@ dotenv.config();
 const server =new ApolloServer({
   typeDefs: types,
   resolvers: resolvers,
-   introspection: true,
-  playground: true,
+   introspection: true
 });
 
 const app = express();
