@@ -1,1 +1,1 @@
-web: yanr start
+web: npm start
