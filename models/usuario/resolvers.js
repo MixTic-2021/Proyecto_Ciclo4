@@ -10,6 +10,10 @@ const resolversUsuario = {
   },
   Query: {
     Usuarios: async (parent, args, context) => {
+<<<<<<< HEAD
+=======
+      console.log(args);
+>>>>>>> aac39e800f50c697f56ec3ac9bb35368e2716deb
       const usuarios = await UserModel.find({ ...args.filtro });
       return usuarios;
     },

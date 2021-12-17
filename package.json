@@ -5,8 +5,12 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
+<<<<<<< HEAD
     "dev": "nodemon index.js",
     "test": "mocha test --exit"
+=======
+    "dev": "nodemon index.js"
+>>>>>>> aac39e800f50c697f56ec3ac9bb35368e2716deb
   },
   "type": "module",
   "dependencies": {
